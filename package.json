@@ -1,8 +1,14 @@
 {
   "name": "ai-power-tool",
-  "displayName": "ai-power-tool",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "AI Power Tool - Your Smart Coding Assistant",
+  "description": "选中代码，让AI为你解释。由DeepSeek强力驱动。",
+  "version": "0.0.2",
+  "author": "zoey",
+  "publisher": "zoey-publisher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-github-username/ai-power-tool.git"
+  },
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -26,6 +32,16 @@
           "group": "navigation"
         }
       ]
+    },
+    "configuration": {
+      "title": "AI Power Tool",
+      "properties": {
+        "aiPowerTool.deepseek.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "你的DeepSeek API Key"
+        }
+      }
     }
   },
   "scripts": {
