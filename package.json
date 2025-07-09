@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/your-github-username/ai-power-tool.git"
   },
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.101.0"
   },
